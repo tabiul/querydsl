@@ -5,7 +5,6 @@ import javax.persistence.EntityListeners;
 @Entity
 @EntityListeners(value = Listener.class)
 public class Person {
-
     private String firstName;
     private String lastName;
 
